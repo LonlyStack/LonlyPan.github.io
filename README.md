@@ -1,5 +1,5 @@
 # Lonlypan
-我的个人博客：https://lonlypan.com，欢迎 Star 和 Fork。
+我的个人博客：https://lonlypan.com ，欢迎 Star 和 Fork。
 
 ## 概览
 * 效果预览
