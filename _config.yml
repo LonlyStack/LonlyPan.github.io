@@ -15,7 +15,7 @@ profile: 啥事都做，一事无成
 profile_links:
   Project: "https://wifimake.com/lonlypan"
   GitHub: "https://github.com/lonlypan"
-  Email: "lonlypan@gmail.com"
+  996.ICU: "lonlypan@gmail.com"
   # You can add more profile links above, or edit _includes/sidebar.html 
 
 # Comment Service (Disqus or 多说)
@@ -29,7 +29,7 @@ header:
   links:             # Links on the header. Link to in-site page with a slash as prefix
     分类: /category/
     关于: /about/
-    996.ICU: https://wifimake.com
+    更多: https://wifimake.com
     
 
 permalink: /archivers/:title
