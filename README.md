@@ -1,6 +1,7 @@
-# jekyll-theme-EasyBook
+# Fork from Another Jekyll Blog Theme "EasyBook"
 
-Another Jekyll Blog Theme "EasyBook"
+
+
 
 Start blogging with a simple but powerful theme.
 
