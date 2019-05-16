@@ -102,3 +102,5 @@ Visit <http://laobubu.net/donate.html>
 [Quick Guide]: https://github.com/laobubu/jekyll-theme-EasyBook/wiki/Quick-Guide
 [helloPost]: http://laobubu.github.io/jekyll-theme-EasyBook/archivers/hello
 [jekyll]: http://jekyllrb.com/
+
+<a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
