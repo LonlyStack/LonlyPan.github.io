@@ -30,6 +30,7 @@ header:
     分类: /category/
     关于: /about/
     更多: https://wifimake.com
+    996.icu
 
 permalink: /archivers/:title
 plugins:
