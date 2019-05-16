@@ -4,7 +4,7 @@ url: "http://lonlypan.com"    # the protocol and hostname of your site, eg. `htt
 baseurl: "" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/Chongqing
 description: >
-   123 你好.
+   123.
 # Your information
 email: lonlypan@gmail.com
 author: LonlyPan
