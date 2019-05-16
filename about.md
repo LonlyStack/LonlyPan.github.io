@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: 你好呀，朋友！
 permalink: /about/
 ---
 
