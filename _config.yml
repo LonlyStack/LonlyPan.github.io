@@ -4,12 +4,12 @@ url: "http://lonlypan.com"    # the protocol and hostname of your site, eg. `htt
 baseurl: "" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/Chongqing
 description: >
-  Write an awesome description for your new site here. You can edit this
+  3d Print，STM32，Marlin，FPGA，HTML，C++
 # Your information
 email: lonlypan@gmail.com
 author: LonlyPan
 avatar: "/avator.ico"
-profile: One sentence introducing yourself.
+profile: 啥事都做，一事无成
 #twitter_username: twitter_username
 #github_username:  github_username
 profile_links:
