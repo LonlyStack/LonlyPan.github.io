@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ""GPIO_Analog"引脚模式-STM32CubeMX"
+title:  "GPIO_Analog 引脚模式-STM32CubeMX"
 date:   2019-05-17 21:12
 categories: STM32
 ---
@@ -9,7 +9,7 @@ categories: STM32
 
 这里在配置引脚模式时，遇到了一个问题：**GPIO_Analog** 是什么模式？之前似乎从没遇见过。
 
-![enter description here](/images/20190517引脚选择.png)
+![enter description here](/images/Posts/20190517引脚选择.png)
 
 上网搜了一通，找到ST官方社区的两个问答，才解决了疑惑。
 
