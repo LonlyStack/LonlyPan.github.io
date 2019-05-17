@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GPIO_Analog''引脚模式-STM32CubeMX"
+title:  ""GPIO_Analog"引脚模式-STM32CubeMX"
 date:   2019-05-17 21:12
 categories: STM32
 ---
@@ -26,8 +26,8 @@ categories: STM32
 
 实际STM32中文参考手册的==GPIO功能描述==也有介绍，不过这是个坑。我们看一下对比。
 
-![enter description here](/images/20190517参考手册对比.png)
+![enter description here](/images/Posts/20190517参考手册对比.png)
 
 官方的描述是**Analog**，翻译过来就是**模拟输入**了。当阅读的时候直接照字面理解成立类似ADC的模拟输入引脚了，但实际不是这个意思。当然中文版是**V10**，我的这篇英文是**V20**版，存在改版可能性。好了，看一下手册上对**Analog**模式的解释吧。
 
-![enter description here](/images/20190517参考手册英.png)
+![enter description here](/images/Posts/20190517参考手册英.png)
