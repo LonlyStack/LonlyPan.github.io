@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2019-5-27-数组_array_vector"
+title: "数组_array_vector"
 data: 2019-5-27 16:47
 categories:  C++
 ---
