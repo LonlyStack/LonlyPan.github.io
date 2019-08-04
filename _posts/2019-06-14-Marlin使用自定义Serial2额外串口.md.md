@@ -2,7 +2,7 @@
 layout: post
 title: "Marlin 使用自定义Serial1/2/3额外串口"
 data: 2019-6-14 9:23
-categories:  Arduino && Marlin
+categories:  Marlin&Arduino
 ---
 
 按照Arduio官方[串口文档教程](https://www.arduino.cc/reference/en/language/functions/communication/serial/)  ，Mege系列主板是支持最多4路硬件串口的。
