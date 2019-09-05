@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "C学习"
+title: "2019-9-4-C学习"
 data: 2019-9-4 18:6
 categories:  C&C++
 ---
