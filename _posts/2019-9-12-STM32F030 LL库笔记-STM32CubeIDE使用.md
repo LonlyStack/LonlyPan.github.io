@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2019-9-12-STM32F030 LL库笔记-STM32CubeIDE使用"
+title: "STM32F030 LL库笔记-STM32CubeIDE使用"
 data: 2019-9-12 16:23
 categories:  STM32
 ---
