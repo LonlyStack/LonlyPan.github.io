@@ -20,7 +20,7 @@ categories:  hardware
 
 然而事实并非如此，在随后的**寄存器说明-CTRLA**寄存器处，给出了下面的配置表格：
 
-![USART_CTRLA](./images/USART_CTRLA.png)
+![USART_CTRLA](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/ATSAME54_SERCOM硬件设计问题汇总/USART_CTRLA.png)
 
 从该表可以得出，**RX**引脚是可以随意配置到SERCOM组的任意物理引脚（PAD[0-4]），而**TX**引脚只能配置到SERCOM组 **PAD[0]** 物理引脚，**XCK、RTS、CTS**亦有约束。只能说隐藏的太深，对于一个刚接触该芯片的人来说，要了解到寄存器层面才能正确完成硬件设计，实则很难。
 
