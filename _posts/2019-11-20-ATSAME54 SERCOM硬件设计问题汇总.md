@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2019-11-20-ATSAME54 SERCOM硬件设计问题汇总"
+title: "ATSAME54 SERCOM硬件设计问题汇总"
 data: 2019-11-20 16:2
 categories:  hardware
 ---
