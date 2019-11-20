@@ -16,7 +16,8 @@ categories:  hardware
 
 ![IC_Signal_Description](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/ATSAME54_SERCOM硬件设计问题汇总/IIC_Signal_Description.png)
 
-对于一个英语非母语的使用者，在无法通读手册全文的情况下，会很容易产生误会：UASART信号（RX、TX、RTS、CTS）可以随意配置到SERCOM组的物理引脚。
+对于一个英语非母语的使用者，在无法通读手册全文的情况下，会很容易产生  
+**误会：UASART信号（RX、TX、RTS、CTS）可以随意配置到SERCOM组的物理引脚。**
 
 然而事实并非如此，在随后的**寄存器说明-CTRLA**寄存器处，给出了下面的配置表格：
 
