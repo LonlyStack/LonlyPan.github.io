@@ -5,6 +5,8 @@ data: 2019-5-27 16:47
 categories:  c&c++
 ---
 
+**未经授权，不得全文转载。转载前请先阅读[本站版权声明](https://lonlypan.com/archivers/版权声明)**
+
 C++ 中有三种数组：C风格的数组、std::array、std::vector。
 
 编译软件：Visual Studio 2019
