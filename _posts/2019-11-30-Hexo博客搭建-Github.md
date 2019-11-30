@@ -38,20 +38,22 @@ Hexo 就是我们的个人博客网站的框架， 这里需要自己在电脑�
 
 ![Hexo_blog](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-11-30-Hexo博客搭建-Github/Hexo_blog.png)
 
-在PowerShell 输入 `npm install -g hexo-cli `,安装完成后，命令行会出现下面两个警告：
+在 PowerShell 输入 `npm install -g hexo-cli `,安装完成后，命令行会出现下面两个警告：
 
 ![hexo_warringpng](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-11-30-Hexo博客搭建-Github/hexo_warringpng.png)
 
-这是 warning，是因为 mac 下需要 fsevents，在 windows 或 linux 环境下，请忽略这个错误。由于使用的 Win10，所以会出现，忽略它。这里也提醒大家，安装过程中若出现明显的警告、错误、不一致，请多多百度，谷歌解决，每个人都有不同的错误，教程也无法面面俱到。
+这是因为 mac 下需要 fsevents，在 windows 或 linux 环境下，请忽略这个错误。由于使用的 Win10，所以会出现，忽略它。  
+这里也提醒大家，安装过程中若出现明显的警告、错误、不一致，请多多百度、谷歌解决，每个人都有不同的错误，教程也无法面面俱到。
 
-参考链接：
+**参考链接：**
 - [解决npm WARN notsup SKIPPING OPTIONAL DEPENDENCY](https://www.jianshu.com/p/395edd93fd6f)    
 - [npm WARN notsup SKIPPING OPTIONAL DEPENDENCY](https://stackoverflow.com/questions/40226745/npm-warn-notsup-skipping-optional-dependency-unsupported-platform-for-fsevents)
 
 
 ### 4、新建博客
 
-上述安装完成后，再输入 `hexo init my_blog` ,这里 **my_blog** 是你博客网站的保存文件夹，可自行命名。这个安装过程比较长，不用翻墙，耐心等待，安装完成后如下：
+上述安装完成后，再输入 `hexo init my_blog` ,这里 **my_blog** 是你博客网站的保存文件夹，可自行命名。这个安装过程比较长，耐心等待，安装完成后如下：
+
 ![fsevent_warring](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-11-30-Hexo博客搭建-Github/fsevent_warring.png)
 
 这里我们依然会看到几个警告，但仔细查看每条警告都是关于  fsevents 的，所以忽略它。
@@ -63,12 +65,13 @@ Hexo 就是我们的个人博客网站的框架， 这里需要自己在电脑�
 
 这里我在实际操作时，记得可能无法新建博客，会提示`nodemon运行 提示错误：无法加载文件 C:\Users\gxf\AppData\Roaming\npm\nodemon.ps1，因为在此系统上禁止运行脚本。` 错误。这是你笔记本禁止运行脚本。  
 **解决办法：**  
-1.管理员身份打开powerShell  
-2.输入`set-ExecutionPolicy RemoteSigned`  
+1. 管理员身份打开powerShell  
+2. 输入`set-ExecutionPolicy RemoteSigned`  
 ![set-execution](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-11-30-Hexo博客搭建-Github/set-execution.png)
-3.  3 选择Y 或者A ，就好了  
+3.  3 选择 Y 或者 A ，就好了  
 
-接下来就是创建博客页面了，接着输入命令`hexo g` 创建页面，我们会发现显示信息不对劲，似乎少了什么东西，如下图左半部分。这是 Hexo 和 windows powershell 兼容行问题，实际已经创建完成了。  
+接下来就是创建博客页面了，输入命令`hexo g` 创建页面，我们会发现显示信息不对劲，似乎少了什么东西，如下图左半部分。这是 Hexo 和 windows powershell 兼容行问题，实际已经创建完成了。
+
 不放心的读者可以打开**cmd命令提示符**工具，这里默认是在C盘下，我们需要重新定位到 **my_blog** 文件夹下，按照下图右半部分红框内提示进入该文件夹，并重新输入命令 `hexo g`，会发现似乎没啥变化，那是因为刚在 PowerShall 中已经创建完成了。这里我们将 **my_blog** 文件夹下的 **public** 文件夹删除（该文件夹就是 hexo g命令新建的），再次输入 `hexo g`，就会看到完整的安装信息了。
 
 ![hexo_g](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-11-30-Hexo博客搭建-Github/hexo_g.png)
@@ -94,7 +97,8 @@ Hexo 就是我们的个人博客网站的框架， 这里需要自己在电脑�
  - hexo clean #清除缓存，若是网页正常情况下可以忽略这条命令
 
 - hexo new draft "draft title"  #新建草稿，保存在博客中但不显示
-- hexo new page "page title"
+- hexo new page "page title"  
+
 那么我们新建一篇博客文章的顺序就是：
 1. hexo n "new post" 
 2. hexo g
@@ -103,7 +107,8 @@ Hexo 就是我们的个人博客网站的框架， 这里需要自己在电脑�
 
 ### 一键部署
 
-输入`npm install hexo-deployer-git --save`  指令安装 git，同样忽略警告。使用指令 `npm list hexo-deployer-git`可以查看 git 版本检查是否安装成功。
+输入`npm install hexo-deployer-git --save`  指令安装 git，同样忽略警告。  
+使用指令 `npm list hexo-deployer-git`可以查看 git 版本检查是否安装成功。
 
 ![add_git](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-11-30-Hexo博客搭建-Github/add_git.png)
 
@@ -118,15 +123,15 @@ deploy:
  - repo	库（Repository）地址，不要忘了加上 **.git**
  - branch	分支名称。如果不指定，则默认值为 master,可不填
 
-依次输入指令：`hexo g` ，`hexo d`，就会开始自动上传部署，完成后，打开浏览器，在地址栏输入你的个人网站的仓库路径，即 http://xxxx.github.io ，就可以在线访问网站了。
+保存好文件后，依次输入指令：`hexo g` ，`hexo d`，就会开始自动上传部署，完成后，打开浏览器，在地址栏输入你的个人网站的仓库路径，即 http://xxxx.github.io ，就可以在线访问网站了。
 
-这里在输入`hexo d` 指令部署时，可能会弹出github的登陆界面，直接登陆就好了，这之后可能让你在指令界面再次输入用户名和密码，直接输入回车即可，然后继续等待部署结束。
+这里在输入`hexo d` 指令部署时，可能会弹出 Github 的登陆界面，直接登陆就好了，这之后可能让你在指令界面再次输入用户名和密码，直接输入回车即可，然后继续等待部署结束。
 
-另一个问题是，这里使用 PowerShell 操作时，在弹出的 github 登陆界面中可能无法输入密码或者登陆不成功，建议切换到 **cmd** 操作，输入`hexo d`部署。
+另一个问题是，这里使用 PowerShell 操作时，在弹出的 Github 登陆界面中无法输入密码或者登陆不成功，建议切换到 **cmd命令操作符** 操作。
 
 ### 绑定域名
 
-虽然在Internet上可以访问我们的网站，但是用的github地址，而我们想使用我们自己的个性化域名，这就需要绑定我们自己的域名。登录到阿里云，进入管理控制台的域名列表，找到你的域名，进入解析。  
+虽然在Internet上可以访问我们的网站，但是用的 Github 地址，而我们想使用我们自己的个性化域名，这就需要绑定我们自己的域名。登录到阿里云，进入管理控制台的域名列表（你需要先买一个域名），找到你的域名，进入解析。  按下图输入解析信息。
 
  - @：可以使用  xxx.com解析
  - www：使用www.xxx.com解析
