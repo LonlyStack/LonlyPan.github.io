@@ -99,10 +99,10 @@ Hexo 就是我们的个人博客网站的框架， 这里需要自己在电脑�
 - hexo new draft "draft title"  #新建草稿，保存在博客中但不显示
 - hexo new page "page title"  
 
-那么我们新建一篇博客文章的顺序就是：
+**那么我们新建一篇博客文章的顺序就是：**
 1. hexo n "new post" 
 2. hexo g
-3. hexo s
+3. hexo s（至此可以实现本地访问）
 4. hexo d（只有先部署到Github上才行）
 
 ### 一键部署
