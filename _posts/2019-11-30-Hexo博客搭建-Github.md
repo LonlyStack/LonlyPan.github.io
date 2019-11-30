@@ -155,3 +155,8 @@ hexo d
 - [hexo-Anisina主题](https://github.com/Haojen/hexo-theme-Anisina)
 - [Jekyll和Hexo详细对比](https://zuoridangnian.com/archives/3043)
 - [我的个人博客之旅：从jekyll到hexo](https://blog.csdn.net/u011475210/article/details/79023429)
+- nodemon运行 提示错误：无法加载文件 C:\Users\gxf\AppData\Roaming\npm\nodemon.ps1，因为在此系统上禁止运行脚本。
+
+这是你笔记本禁止运行脚本，解决办法
+
+https://www.cnblogs.com/xiaofenguo/p/11511789.html
