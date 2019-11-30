@@ -1,6 +1,6 @@
 ---
 layout: post
-title:    "2019-11-30-Hexo博客搭建-Github"
+title:    "Hexo博客搭建-Github"
 date:   2019-11-30  10:27 
 categories: HTML&CSS
 ---
