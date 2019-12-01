@@ -68,5 +68,13 @@ categories: 办公
 
 ## 参考链接
 
-
+- [Jekyll中文官网](https://www.jekyll.com.cn/)
+- [如何快速给自己构建一个温馨的"家"——用Jekyll搭建静态博客](https://www.jianshu.com/p/9a6bc31d329d)
+- [Jekyll博客系统初探(持续更新中...)](https://www.jianshu.com/p/558a5d50e077)
+- [Jekyll + Github Pages 博客搭建入门](https://www.jianshu.com/p/9f198d5779e6)
+- [Github+Jekyll 搭建个人网站详细教程](https://www.jianshu.com/p/9f71e260925d)
+- [jekyll+github搭建个人博客](https://www.cnblogs.com/yehui-mmd/p/6286271.html)
+- [\[Jekyll\] permalink -- 修改文章的链接地址](https://my.oschina.net/u/3729927/blog/1931051)
+- [jekyll-theme-EasyBook主题](https://github.com/laobubu/jekyll-theme-EasyBook)
+- [Jekyll 博客系列-视频教程](https://www.youtube.com/watch?v=Zt_QzSbyDcw&list=PLK2w-tGRdrj7vzX7Y-GqKPb2QPrHCYZY1&index=1)
 
