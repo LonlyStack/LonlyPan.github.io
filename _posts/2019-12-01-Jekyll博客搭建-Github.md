@@ -5,8 +5,6 @@ date:   2019-12-01  10:7
 categories: 办公
 ---
 
-**未经授权，不得全文转载。转载前请先阅读[本站版权声明](https://lonlypan.com/archivers/版权声明)**
-
 ## 安装Jekyll
 
 ### 1、安装Ruby
