@@ -4,8 +4,6 @@ title:  "GPIO_Analog 引脚模式-STM32CubeMX"
 date:   2019-05-17 21:12
 categories: stm
 ---
- 
-**未经授权，不得全文转载。转载前请先阅读[本站版权声明](https://lonlypan.com/archivers/版权声明)**
 
 最近开始学习使用STM最新的编译器STM32cubeIDE，直接从Keil转移过来的。之前也没用过CubeMX。
 
