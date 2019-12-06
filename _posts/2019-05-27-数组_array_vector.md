@@ -9,6 +9,8 @@ C++ 中有三种数组：C风格的数组、std::array、std::vector。
 
 编译软件：Visual Studio 2019
 
+<!--more-->
+
 ## C风格的数组
 
 这个风格不够现代，且不够安全，示例如下：
