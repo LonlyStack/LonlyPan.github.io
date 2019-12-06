@@ -13,6 +13,7 @@ categories: HTML&CSS
 - 安装环境：Win10
 - 第一次安装Hexo
 
+<!--more-->
 
 ### 1、Git
 
