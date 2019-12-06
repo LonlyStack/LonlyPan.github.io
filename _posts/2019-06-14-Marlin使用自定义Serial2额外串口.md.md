@@ -5,8 +5,6 @@ data: 2019-6-14 9:23
 categories:  arduino
 ---
 
-**未经授权，不得全文转载。转载前请先阅读[本站版权声明](https://lonlypan.com/archivers/版权声明)**
-
 按照Arduio官方[串口文档教程](https://www.arduino.cc/reference/en/language/functions/communication/serial/)  ，Mege系列主板是支持最多4路硬件串口的。
 而我的Marlin主板正是使用了Mega2560（最常见的3D打印主板），因此也是可以添加额外的自定义串口，并且还有官方软件库支持。
 
