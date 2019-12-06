@@ -11,6 +11,7 @@ categories:  atmel
 
 ![USART_Signal_Description](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/ATSAME54_SERCOM硬件设计问题汇总/USART_Signal_Description_.png)
 
+<!--more-->
 其余上下文并没有对**SERCOM引脚与USART信号**对应关系有约束说明，而在**SERCOM I2C**相同小结处的表格却做了明确约束，如下：
 
 ![IC_Signal_Description](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/ATSAME54_SERCOM硬件设计问题汇总/IIC_Signal_Description.png)
