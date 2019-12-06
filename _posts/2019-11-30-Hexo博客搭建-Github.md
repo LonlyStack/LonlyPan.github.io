@@ -5,8 +5,6 @@ date:   2019-11-30  10:27
 categories: HTML&CSS
 ---
 
-**未经授权，不得全文转载。转载前请先阅读[本站版权声明](https://lonlypan.com/archivers/版权声明)**
-
 ## 安装Hexo
 
 这是 Hexo 的官方中文教程网站：[Hexo官方教程中文](https://hexo.io/zh-cn/docs/)  
