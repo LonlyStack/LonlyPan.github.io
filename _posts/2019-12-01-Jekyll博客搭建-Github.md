@@ -12,6 +12,7 @@ categories: 办公
 1、从[RubyInstaller](https://rubyinstaller.org/downloads/)下载，下载并安装**Ruby + Devkit**版本，选择第一个最新版本就行。
 使用默认选项进行安装，**不要更改安装路径**（我这里改了，尝试过一次，会在后面无法安装Jekyll），注意下图两个选项一定要勾选（默认已勾选）
 
+<!--more-->
 ![install_ruby](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-12-01-Jekyll博客搭建-Github/install_ruby.png)
 
 安装完成后，会提示安装 MSYS2，它用来编译 Ruby 本地包，我们需要同时键入 "1,2,3"，一次完成所有的安装（建议一个个依次安装）。这里因为众所周知的网络原因速度奇慢无比，如果网络状况良好，能够一次装成功或者以失败告终。 失败了就重新尝试（或翻墙），这一步是没法跳过的。
