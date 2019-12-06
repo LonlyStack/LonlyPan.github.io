@@ -9,6 +9,7 @@ categories: stm
 
 这里在配置引脚模式时，遇到了一个问题：**GPIO_Analog** 是什么模式？之前似乎从没遇见过。
 
+<!--more-->
 ![enter description here](/images/Posts/20190517引脚选择.png)
 
 上网搜了一通，找到ST官方社区的两个问答，才解决了疑惑。
