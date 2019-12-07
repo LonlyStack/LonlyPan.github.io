@@ -90,7 +90,25 @@ categories: 办公
 
 ### 4、自定义域名
 
+虽然在Internet上可以访问我们的网站，但是用的 Github 地址，而我们想使用我们自己的个性化域名，这就需要绑定我们自己的域名。登录到阿里云，进入管理控制台的域名列表（你需要先买一个域名），找到你的域名，进入解析。  按下图输入解析信息。
 
+ - @：可以使用  xxx.com解析
+ - www：使用www.xxx.com解析
+
+至于别的教程说的要添加自己 GitHub 的 **IP** 地址，经过实测，并不需要。
+
+![解析](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-11-30-Hexo博客搭建-Github/解析.png)
+
+登录 GitHub，进入之前创建的仓库，点击 **settings**，设置 **Custom domain**，输入你的域名，点击 **save** 保存。
+
+![github_site](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-11-30-Hexo博客搭建-Github/github_site.png)
+
+进入本地博客文件夹 **wifimake.github.io** 目录下，创建一个记事本文件，输入你的域名，如果带有www，那么以后访问的时候必须带有www完整的域名才可以访问，如果不带有www，以后访问的时候带不带www都可以访问。所以建议，不要带有www。  
+保存时，命名为CNAME （后缀**.txt** 不要），注意保存成**所有文件**而不是txt文件。
+
+![CNAME](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-11-30-Hexo博客搭建-Github/CNAME.png)
+
+使用 Github Desktop 推送到线上，上等片刻，就可使用域名访问了。
 
 ## 网站修改
 
