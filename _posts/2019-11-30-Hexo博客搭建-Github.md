@@ -20,7 +20,7 @@ categories: HTML&CSS
 Windows：下载并安装 [git](https://git-scm.com/download/win)。  
 中国大陆地区用户，可以前往 [淘宝 Git for Windows 镜像](https://npm.taobao.org/mirrors/git-for-windows/) 下载 git 安装包。
 
-安装过程很简单，一路默认即可，你可以自己更改安装路径。安装完成后，在笔记本左下角搜索~~PowerShell~~，（PowerShell 和 hexo 有兼容性问题，建议使用**cmd命令操作符** 操作，两者不同软件，一样效果；且建议右键以**管理员身份运行**）。  
+安装过程很简单，一路默认即可，你可以自己更改安装路径。安装完成后，在笔记本左下角搜索 ~~PowerShell~~，（PowerShell 和 hexo 有兼容性问题，建议使用 **cmd命令操作符** 操作，两者不同软件，一样效果；且建议右键以**管理员身份运行**）。  
 输入`git version`回车，就会显示你已经安装的git版本，证明安装成功。
 
 ![powershell_87](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-11-30-Hexo博客搭建-Github/powershell_87.png)
