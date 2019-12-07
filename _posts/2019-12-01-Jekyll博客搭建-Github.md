@@ -65,10 +65,12 @@ categories: 办公
 
 现在我们将 **博客** 网站（myblog下所有文件）部署到GitHub上，使得我们的博客可以线上访问。
 
-首先你需要注册 Github 账号，并新建一个仓库（请自行百度），仓库里面不需要任何东西。仓库名要和你的用户名一致。如：    
+首先你需要注册 **Github** 账号，并新建一个仓库（请自行百度），仓库里面不需要任何东西。仓库名要和你的用户名一致。如：    
 **我的用户名为：wifimake，则仓库名为：wifimake.github.io**
 
+### 安装 Github Desktop
 
+我们需要 Github Desktop 软件帮助我们将文件推送到自己的GitHub账户仓库中完成部署。
 ## 参考链接
 
 - [Jekyll中文官网](https://www.jekyll.com.cn/)
