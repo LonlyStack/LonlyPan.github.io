@@ -179,10 +179,11 @@ categories: jekyll update
 |   date     |   这里的日期会覆盖文章名字中的日期。这样就可以用来保障文章排序的正确。日期的具体格式为YYYY-MM-DD HH:MM:SS +/-TTTT；时，分，秒和时区都是可选的。  |
 |  categories      |  指定博客的一个或者多个分类属性   |
 
-Markdown语法：
- YAML语法：
-
 https://www.jianshu.com/p/9f71e260925d
+
+- 博客文章需要 Markdown 语法，相关资料有很多，请自行搜索。
+- 文章头信息需要 YAML 语法，相关资料有很多，请自行搜索。
+
 
 文章写完后，使用 `bundle exec jekyll serve` 可以进行本地预览，或使用Github Desktop推送到Github上，发布文章。
 
@@ -194,6 +195,7 @@ https://www.jianshu.com/p/9f71e260925d
 Jekyll 有这非常灵活和强大的配置功能，既可以在网站根目录下的 \_config.yml 文件中进行配置，也可以作为命令行参数来配置。默认配置大致如下：
 
 yml文件使用了YAML语法，如果想更好的理解Jekyll就需要了解一下YAML语法的内容。
+> 配置修改需要 YAML 语法，相关资料有很多，请自行搜索。
 
 一般主题中也会自动帮你写好这些自定义属性，搭建你自己的博客时你只需要将这些自定义属性改为你想要的值即可。如下是官方默认主题的配置文件，冒号 ':' 后的内容都可以自定义修改，多多尝试。
 
