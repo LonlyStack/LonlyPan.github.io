@@ -157,8 +157,32 @@ bundle exec 表示在当前项目依赖的上下文环境中执行命令 jekyll 
 
 ### 新建博客
 
-Jekyll 的博客博
+\_posts目录是专门存放博客文件的，你可以使用markdown或者html格式的文件来写博客，我个人是用markdown格式写的。但是不管是哪种格式的文件都需要包含 YAML 头信息， Jekyll 才会把它当做一个特殊的文件来处理。
 
+在_posts目录下新建一个markdown文件，头信息必须在文件的开始部分，并且需要按照 YAML 的格式写在两行三虚线之间。如下所示：
+
+```
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2019-12-07 11:27:05 +0800
+categories: jekyll update
+---
+
+...
+这里就可以使用markdown格式或其他格式写博客内容
+```
+|  变量名称 |  描述  |
+| ------ | --- |
+| layout |  指定使用该模板文件。指定模板文件时候不需要文件扩展名。模板文件必须放在\_layouts 目录下。  |
+|  title      |   文章名  |
+|   date     |   这里的日期会覆盖文章名字中的日期。这样就可以用来保障文章排序的正确。日期的具体格式为YYYY-MM-DD HH:MM:SS +/-TTTT；时，分，秒和时区都是可选的。  |
+|  categories      |  指定博客的一个或者多个分类属性   |
+
+Markdown语法：
+ YAML语法：
+ 
+ 
 ### 网站配置
 
 
