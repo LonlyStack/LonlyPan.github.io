@@ -90,14 +90,14 @@ categories: 办公
 └── index.html
 ```
 
-| _posts                     | 	 存放博客文章  |
-| ---------------------------------- | --- |
-| _config.yml         |  网站的一些配置信息    |
-|   404.html | 无法访问404界页面  |
-| about.md |  关于页面  |
-| Gemfile   |  跟踪构建Jekyll站点所需的gems和gem版本。  |
-|   Gemfile.lock    |  跟踪构建Jekyll站点所需的gems和gem版本。   |
-|    index.html               |  网站主页面   |
+|    _posts             | 	 存放博客文章  |
+| --------------------- | --- |
+|    _config.yml     |  网站的一些配置信息    |
+|    404.html         | 无法访问404界页面  |
+|    about.md       |  关于页面  |
+|    Gemfile          |  跟踪构建Jekyll站点所需的gems和gem版本。最新版本才有|
+|    Gemfile.lock  |  跟踪构建Jekyll站点所需的gems和gem版本。最新版本才有   |
+|    index.html     |  网站主页面   |
 
 我们以后写的博客文章都会放在 **\_posts** 文件夹下，而修改一些关于网站的基本信息和配置则是 **\_config.yml** 文件。**about.md**是**关于我**的页面内容。其他的可以不用管。
 
@@ -176,11 +176,11 @@ categories: jekyll update
 这里就可以使用markdown格式或其他格式写博客内容
 ```
 
-|  变量名称 |  描述  |
-| --- | --- |
-| layout |  指定使用该模板文件。指定模板文件时候不需要文件扩展名。模板文件必须放在\_layouts 目录下。  |
-|  title      |   文章名  |
-|   date     |   这里的日期会覆盖文章名字中的日期。这样就可以用来保障文章排序的正确。日期的具体格式为YYYY-MM-DD HH:MM:SS +/-TTTT；时，分，秒和时区都是可选的。  |
+|    变量名称   |  描述  |
+| ---------------- | --- |
+|      layout      |  指定使用该模板文件。指定模板文件时候不需要文件扩展名。模板文件必须放在\_layouts 目录下。  |
+|        title        |   文章名  |
+|      date        |   这里的日期会覆盖文章名字中的日期。这样就可以用来保障文章排序的正确。日期的具体格式为YYYY-MM-DD HH:MM:SS +/-TTTT；时，分，秒和时区都是可选的。  |
 |  categories   |  指定博客的一个或者多个分类属性   |
 
 文章写完后，使用 `bundle exec jekyll serve` 可以进行本地预览，或使用Github Desktop推送到Github上，发布文章。
