@@ -7,10 +7,12 @@ categories: 办公
 
 介绍本地搭建 **Jekyll** 博客的详细过程，实现博客文档修改和本地实时预览；并进一步介绍如何将本地博客部署到 Github 仓库中，实现线上访问。所有内容都是基于2019年11月最新版 Jekyll 讲解。
 
-**官方网站：**
-- [Jekyll中文官网](https://www.jekyll.com.cn/)
-- [Jekyll英文官网](https://jekyllrb.com/)
 <!--more-->
+
+**官方网站：**
+
+1.[Jekyll中文官网](https://www.jekyll.com.cn/)
+2.[Jekyll英文官网](https://jekyllrb.com/)
 
 ## 安装Jekyll
 
@@ -96,6 +98,8 @@ categories: 办公
 | Gemfile   |  跟踪构建Jekyll站点所需的gems和gem版本。  |
 |   Gemfile.lock    |  跟踪构建Jekyll站点所需的gems和gem版本。   |
 |    index.html               |  网站主页面   |
+
+我们以后写的博客文章都会放在 **\_posts** 文件夹下，而修改一些关于网站的基本信息和配置则是 **\_config.yml** 文件。**about.md**是**关于我**的页面内容。其他的可以不用管。
 
 这里为止，我们已经成功在本地搭建了 Jekyll 博客系统，后面我们将会将其部署到GitHub上，使得可以通过互联网访问。这样才算完整搭建博客。
 
