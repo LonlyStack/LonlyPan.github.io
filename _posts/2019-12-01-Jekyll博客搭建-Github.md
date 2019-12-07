@@ -23,7 +23,7 @@ categories: 办公
 
 ![install_ruby](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-12-01-Jekyll博客搭建-Github/install_ruby.png)
 
-安装完成后，会提示安装 MSYS2，它是用来编译 Ruby 本地包的，我们需要同时键入 `1,2,3`，一次完成所有的安装（建议一个个依次安装）。这里因为众所周知的网络原因，速度奇慢无比，如果网络状况良好，能够一次装成功或者以失败告终。 失败了就重新尝试（或翻墙），这一步是没法跳过的。
+安装完成后，会自动弹出 **cmd.exe** 提示安装 MSYS2，它是用来编译 Ruby 本地包的，我们需要同时键入 `1,2,3`，一次完成所有的安装（建议一个个依次安装）。这里因为众所周知的网络原因，速度奇慢无比，如果网络状况良好，能够一次装成功或者以失败告终。 失败了就重新尝试（或翻墙），这一步是没法跳过的。
 
 这里如果没有弹出命令行 MSYS2 安装界面或者把它关掉了，那么可以重新打开**cmd命令行**，输入 `ridk install` 来再次进入MSYS2安装界面。 
 
@@ -49,7 +49,7 @@ categories: 办公
 
 > 前面如果在安装 Ruby 时更改了安装路径，这里的Jekyll 很可能会安装失败，具体解决办法也没找到，最后还是保持了默认安装路径才解决，卸载Ruby时一定要删除干净，不然再安装会自动安装到上一次安装时的目录，可以使用 **everything** 软件，搜索 "ruby" 彻底删除相关文件。
 
-**参考链接：**
+**参考链接：**  
 以下为解决`gem install jekyll bundler`安装错误的参考信息，都没啥帮助，还是自己重新安装ruby解决，留作记录。
 - [安装jekyll及初步使用](https://pashanhu.github.io/pages/jekyll/)
 - [windows10安装jekyll和ruby环境](https://mojotv.cn/2019/07/13/install-jekyll-in-windows10)
@@ -62,11 +62,11 @@ categories: 办公
 
 ### 3、新建博客
 
-接着使用 `jekyll new myblog` 命令在 ./myblog 目录下创建一个全新的 Jekyll 网站，这里文件位置可以自己指定，我是安装在D盘。等待几分钟安装完成。
+接着使用 `jekyll new myblog` 命令在 ./myblog 目录下创建一个全新的 Jekyll 网站，这里文件位置可以自己指定，我是安装在D盘(先进入D盘，再执行指令，涉及[cmd命令](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/cmd))。等待几分钟安装完成。
 
 ![add_myblog](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-12-01-Jekyll博客搭建-Github/add_myblog.png)
 
-`cd myblog`进入新创建的目录，再输入`bundle exec jekyll serve` 构建网站并启动一个本地 web服务，在浏览器中打开 http://127.0.0.1:4000 网址访问网站。
+`cd myblog`进入新创建的目录，再输入`bundle exec jekyll serve` 构建网站并启动一个本地 web服务，在浏览器中打开 `http://127.0.0.1:4000` 网址访问网站。
 
 ![add_site](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-12-01-Jekyll博客搭建-Github/1575180879786.png)
 
@@ -105,20 +105,20 @@ categories: 办公
 
 ## Github部署
 
-现在我们将 **博客** 网站（myblog下所有文件）部署到GitHub上，使得我们的博客可以线上访问。
+现在我们将本地博客网站部署到 GitHub 上，使得我们的博客可以线上访问。
 
 **常用命令：**
 
-- gem install jekyll  //使用gem安装Jekyll
-- jekyll new blog    //使用Jekyll创建你的博客站点
-- cd myblog       //进入myblog目录,记得一定要进入创建的目录，否则服务无法开启   
-- jekyll serve  //开启Jekyll服务 
-- bundle exec jekyll serve  //在Jekyll自带的本地服务器上预览你的项目，
+- gem install jekyll  #使用gem安装Jekyll
+- jekyll new blog    #使用Jekyll创建你的博客站点
+- cd myblog      #进入myblog目录,记得一定要进入创建的目录，否则服务无法开启   
+- jekyll serve  #开启Jekyll服务 
+- bundle exec jekyll serve  #在Jekyll自带的本地服务器上预览你的项目，
 bundle exec 表示在当前项目依赖的上下文环境中执行命令 jekyll serve
 
 ### 1、注册 Github
 
-首先你需要注册 **Github** 账号，并新建一个仓库（请自行百度），仓库里面不需要任何东西。仓库名要和你的用户名一致。如：    
+首先你需要注册 **Github** 账号，并新建一个仓库（请自行搜索），仓库里面不需要任何东西。仓库名要和你的用户名一致。如：    
 **我的用户名为：wifimake，则仓库名为：wifimake.github.io**
 
 ### 2、安装 Github Desktop
@@ -129,7 +129,7 @@ bundle exec 表示在当前项目依赖的上下文环境中执行命令 jekyll 
 
 ### 3、部署
 
-找到我们克隆仓库的本地文件夹，将博客文件（myblog下的所有文档）复制到本地仓库下（wifimake.github.io文件夹下），随后使用 Github Desktop 推送到线上，如此便完成可线上部署，这时可以打开链接 https://wifimake.github.io/ 即可访问我们的博客了。
+找到我们克隆仓库的本地文件夹，将博客文件（myblog下的所有文档）复制到本地仓库下（wifimake.github.io文件夹下），随后使用 Github Desktop 推送到线上，如此便完成线上部署，这时可以打开链接 `https://wifimake.github.io/` 即可访问我们的博客了。
 
 ### 4、自定义域名
 
@@ -137,7 +137,7 @@ bundle exec 表示在当前项目依赖的上下文环境中执行命令 jekyll 
 
  - @：可以使用  xxx.com解析
  - www：使用www.xxx.com解析
-
+- 记录值：仓库地址
 至于别的教程说的要添加自己 GitHub 的 **IP** 地址，经过实测，并不需要。
 
 ![解析](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-11-30-Hexo博客搭建-Github/解析.png)
