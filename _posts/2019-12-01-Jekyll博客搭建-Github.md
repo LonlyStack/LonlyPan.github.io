@@ -82,11 +82,17 @@ categories: 办公
 
 我们需要 [Github Desktop](https://desktop.github.com/) 软件帮助我们将文件推送到自己的GitHub账户仓库中完成部署。
 
-安装和使用方法见：[GitHub Desktop使用指南](https://lonlypan.com/archivers/GitHub-Desktop使用指南)
+安装和使用方法见：[GitHub Desktop使用指南](https://lonlypan.com/archivers/GitHub-Desktop使用指南)，**注意克隆仓库时一定要克隆和用户名相同的仓库。**
 
 ### 3、部署
 
-找到我们克隆仓库的本地文件夹，将博客文件（myblog）
+找到我们克隆仓库的本地文件夹，将博客文件（myblog下的所有文档）复制到本地仓库下（wifimake.github.io文件夹下），随后使用 Github Desktop 推送到线上，如此便完成可线上部署，这时可以打开链接 https://wifimake.github.io/ 即可访问我们的博客了。
+
+### 4、自定义域名
+
+
+
+## 网站修改
 
 
 ## 参考链接
