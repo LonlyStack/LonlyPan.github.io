@@ -23,6 +23,10 @@ profile_links:
 #disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
 #duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
+# Google Analytics
+google_analytics: UA-154158357-1
+baidu-analysis: f56279d43c733d547ea06f75f8e05d89
+
 excerpt_separator: <!--more-->
 
 header:
@@ -60,6 +64,4 @@ kramdown:
   math_engine: mathjax
 
 
-# Google Analytics
-google_analytics: UA-154158357-1
-baidu-analysis: f56279d43c733d547ea06f75f8e05d89
+
