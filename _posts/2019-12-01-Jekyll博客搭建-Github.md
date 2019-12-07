@@ -175,14 +175,13 @@ categories: jekyll update
 ...
 这里就可以使用markdown格式或其他格式写博客内容
 ```
+
 |  变量名称 |  描述  |
 | --- | --- |
 | layout |  指定使用该模板文件。指定模板文件时候不需要文件扩展名。模板文件必须放在\_layouts 目录下。  |
 |  title      |   文章名  |
 |   date     |   这里的日期会覆盖文章名字中的日期。这样就可以用来保障文章排序的正确。日期的具体格式为YYYY-MM-DD HH:MM:SS +/-TTTT；时，分，秒和时区都是可选的。  |
-|  categories      |  指定博客的一个或者多个分类属性   |
-
-https://www.jianshu.com/p/9f71e260925d
+|  categories   |  指定博客的一个或者多个分类属性   |
 
 文章写完后，使用 `bundle exec jekyll serve` 可以进行本地预览，或使用Github Desktop推送到Github上，发布文章。
 
