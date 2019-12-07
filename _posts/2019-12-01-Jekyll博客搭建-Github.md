@@ -182,6 +182,8 @@ categories: jekyll update
 Markdown语法：
  YAML语法：
 
+https://www.jianshu.com/p/9f71e260925d
+
 文章写完后，使用 `bundle exec jekyll serve` 可以进行本地预览，或使用Github Desktop推送到Github上，发布文章。
 
 > 建议先使用本地预览，速度是实时的；而推送线上是需要等待几分钟才会看到更新的。
@@ -189,6 +191,13 @@ Markdown语法：
  
 ### 网站配置
 
+Jekyll 有这非常灵活和强大的配置功能，既可以在网站根目录下的 \_config.yml 文件中进行配置，也可以作为命令行参数来配置。默认配置大致如下：
+
+yml文件使用了YAML语法，如果想更好的理解Jekyll就需要了解一下YAML语法的内容。
+
+一般来说_config.yml的默认内容不需要太大改动，只需要往里面添加你需要的自定义属性，然后你就可以在页面模板中使用site.属性名来取得对应的值，例如site.title的值就是Your awesome title。
+
+一般主题中也会自动帮你写好这些自定义属性，搭建你自己的博客时你只需要将这些自定义属性改为你想要的值即可。
 
 ### 主题修改
 
