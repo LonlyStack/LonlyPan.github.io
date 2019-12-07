@@ -85,9 +85,10 @@ categories: 办公
 | _posts                     |     |
 | ---------------------------------- | --- |
 | _config.yml              |     |
-| Gemfile和Gemfile.lock文件， |  这两个文件是用来管理整个项目的依赖的。   |
-|                                 |     |
-|                                 |     |
+|   404.html |  404.html |
+| Gemfile   |  这两个文件是用来管理整个项目的依赖的。   |
+|   Gemfile.lock                              |     |
+|      index.html                           |     |
 |                                 |     |
 |                                 |     |
 
