@@ -161,6 +161,9 @@ bundle exec 表示在当前项目依赖的上下文环境中执行命令 jekyll 
 
 在_posts目录下新建一个markdown文件，头信息必须在文件的开始部分，并且需要按照 YAML 的格式写在两行三虚线之间。如下所示：
 
+> 博客文章需要 Markdown 语法，相关资料有很多，请自行搜索。
+文章头信息需要 YAML 语法，相关资料有很多，请自行搜索。
+
 ```
 ---
 layout: post
@@ -180,10 +183,6 @@ categories: jekyll update
 |  categories      |  指定博客的一个或者多个分类属性   |
 
 https://www.jianshu.com/p/9f71e260925d
-
-- 博客文章需要 Markdown 语法，相关资料有很多，请自行搜索。
-- 文章头信息需要 YAML 语法，相关资料有很多，请自行搜索。
-
 
 文章写完后，使用 `bundle exec jekyll serve` 可以进行本地预览，或使用Github Desktop推送到Github上，发布文章。
 
