@@ -181,7 +181,11 @@ categories: jekyll update
 
 Markdown语法：
  YAML语法：
- 
+
+文章写完后，使用 `bundle exec jekyll serve` 可以进行本地预览，或使用Github Desktop推送到Github上，发布文章。
+
+> 建议先使用本地预览，速度是实时的；而推送线上是需要等待几分钟才会看到更新的。
+
  
 ### 网站配置
 
