@@ -20,7 +20,8 @@ categories: HTML&CSS
 Windows：下载并安装 [git](https://git-scm.com/download/win)。  
 中国大陆地区用户，可以前往 [淘宝 Git for Windows 镜像](https://npm.taobao.org/mirrors/git-for-windows/) 下载 git 安装包。
 
-安装过程很简单，一路默认即可，你可以自己更改安装路径。安装完成后，在笔记本左下角搜索 **PowerShell**，右键以**管理员身份运行**（不然会提示命令不存在，找不到安装的git），输入`git version`回车，就会显示你已经安装的git版本，证明安装成功。
+安装过程很简单，一路默认即可，你可以自己更改安装路径。安装完成后，在笔记本左下角搜索~~PowerShell~~，（PowerShell 和 hexo 有兼容性问题，建议使用**cmd命令操作符** 操作，两者不同软件，一样效果；且建议右键以**管理员身份运行**）。  
+输入`git version`回车，就会显示你已经安装的git版本，证明安装成功。
 
 ![powershell_87](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-11-30-Hexo博客搭建-Github/powershell_87.png)
 
@@ -69,7 +70,7 @@ Hexo 就是我们的个人博客网站的框架， 这里需要自己在电脑�
 1. 管理员身份打开powerShell  
 2. 输入`set-ExecutionPolicy RemoteSigned`  
 ![set-execution](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-11-30-Hexo博客搭建-Github/set-execution.png)
-3.  3 选择 Y 或者 A ，就好了  
+3. 选择 Y 或者 A ，就好了  
 
 接下来就是创建博客页面了，输入命令`hexo g` 创建页面，我们会发现显示信息不对劲，似乎少了什么东西，如下图左半部分。这是 Hexo 和 windows powershell 兼容行问题，实际已经创建完成了。
 
@@ -108,6 +109,9 @@ Hexo 就是我们的个人博客网站的框架， 这里需要自己在电脑�
 
 ### 一键部署
 
+首先你需要注册Github账号，并新建一个仓库，仓库里面不需要任何东西。仓库名要和你的用户名一致。如：    
+**我的用户名为：wifimake，则仓库名为：wifimake.github.io**
+
 输入`npm install hexo-deployer-git --save`  指令安装 git，同样忽略警告。  
 使用指令 `npm list hexo-deployer-git`可以查看 git 版本检查是否安装成功。
 
@@ -121,8 +125,9 @@ deploy:
   repo: https://github.com/wifimake/wifimake.github.io.git
 ```
 
- - repo	库（Repository）地址，不要忘了加上 **.git**
- - branch	分支名称。如果不指定，则默认值为 master,可不填
+- repo	库（Repository）地址，不要忘了加上 **.git**
+- branch	分支名称。如果不指定，则默认值为 master,可不填
+-  `https://github.com/wifimake/wifimake.github.io`就是你的仓库地址
 
 保存好文件后，依次输入指令：`hexo g` ，`hexo d`，就会开始自动上传部署，完成后，打开浏览器，在地址栏输入你的个人网站的仓库路径，即 http://xxxx.github.io ，就可以在线访问网站了。
 
