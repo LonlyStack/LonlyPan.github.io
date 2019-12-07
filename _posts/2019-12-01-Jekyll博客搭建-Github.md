@@ -11,14 +11,14 @@ categories: 办公
 
 **官方网站：**
 
-1.[Jekyll中文官网](https://www.jekyll.com.cn/)
+1.[Jekyll中文官网](https://www.jekyll.com.cn/)  
 2.[Jekyll英文官网](https://jekyllrb.com/)
 
 ## 安装Jekyll
 
 ### 1、安装Ruby
 
-1、从[RubyInstaller](https://rubyinstaller.org/downloads/)下载，下载并安装 **Ruby + Devkit** 版本，选择第一个最新版本就行。  
+1、从[RubyInstaller](https://rubyinstaller.org/downloads/)官网下载并安装 **Ruby + Devkit** 版本，选择第一个最新版本就行。  
 使用默认选项进行安装，**不要更改安装路径**（我这里改了，尝试过一次，会在后面无法安装Jekyll），注意下图两个选项一定要勾选（默认已勾选）
 
 ![install_ruby](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-12-01-Jekyll博客搭建-Github/install_ruby.png)
