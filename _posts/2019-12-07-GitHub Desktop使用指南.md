@@ -1,6 +1,6 @@
 ---
 layout: post
-title:    "2019-12-07-GitHub Desktop使用指南"
+title:    "GitHub Desktop使用指南"
 date:   2019-12-07  9:33 
 categories: 办公
 ---
