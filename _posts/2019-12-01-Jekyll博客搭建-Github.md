@@ -195,9 +195,20 @@ Jekyll 有这非常灵活和强大的配置功能，既可以在网站根目录�
 
 yml文件使用了YAML语法，如果想更好的理解Jekyll就需要了解一下YAML语法的内容。
 
-一般来说_config.yml的默认内容不需要太大改动，只需要往里面添加你需要的自定义属性，然后你就可以在页面模板中使用site.属性名来取得对应的值，例如site.title的值就是Your awesome title。
+一般主题中也会自动帮你写好这些自定义属性，搭建你自己的博客时你只需要将这些自定义属性改为你想要的值即可。如下是官方默认主题的配置文件：
 
-一般主题中也会自动帮你写好这些自定义属性，搭建你自己的博客时你只需要将这些自定义属性改为你想要的值即可。
+```
+title: Your awesome title #你的网站名
+email: your-email@example.com #有的邮箱地址
+description: >- #你的网站描述，下面一大段都是。
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # 网站副链接，填在引号中 the subpath of your site, e.g. /blog
+url: "" # 网站主链接，填在引号中 the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb  #账户名
+github_username:  jekyll  #账户名
+```
 
 ### 主题修改
 
