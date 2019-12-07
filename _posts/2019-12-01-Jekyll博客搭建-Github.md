@@ -67,11 +67,36 @@ categories: 办公
 
 `bundle exec jekyll serve`这个命令后面会经常用到，每次我们更改了博客的**配置文件（.yml）**，都需要执行这个命令，本地网站才会刷新显示，但如果已经部署到github上，那么你编辑后直接推送上去就行，GitHub会自动构建，但是要想本地网站刷新还是需要运行该命令。
 
+### 博客文件夹简介
+
+我们可以打开我们的博客文件夹，其格式如下：
+```
+.
+├── _posts
+│   └── 2018-03-31-welcome-to-jekyll.markdown 
+├── _config.yml  
+├── 404.html  
+├── about.md
+├── Gemfile
+├── Gemfile.lock 
+└── index.html
+```
+
+
 这里为止，我们已经成功在本地搭建了 Jekyll 博客系统，后面我们将会将其部署到GitHub上，使得可以通过互联网访问。这样才算完整搭建博客。
 
 ## Github部署
 
 现在我们将 **博客** 网站（myblog下所有文件）部署到GitHub上，使得我们的博客可以线上访问。
+
+**常用命令：**
+
+- gem install jekyll  //使用gem安装Jekyll
+- jekyll new blog    //使用Jekyll创建你的博客站点
+- cd myblog       //进入myblog目录,记得一定要进入创建的目录，否则服务无法开启   
+- jekyll serve  //开启Jekyll服务 
+- bundle exec jekyll serve  //在Jekyll自带的本地服务器上预览你的项目，
+bundle exec 表示在当前项目依赖的上下文环境中执行命令 jekyll serve
 
 ### 1、注册 Github
 
