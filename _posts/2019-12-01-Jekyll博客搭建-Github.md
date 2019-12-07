@@ -108,7 +108,7 @@ categories: 办公
 
 ![CNAME](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-11-30-Hexo博客搭建-Github/CNAME.png)
 
-使用 Github Desktop 推送到线上，上等片刻，就可使用域名访问了。
+使用 Github Desktop 推送到线上，稍等片刻，就可使用域名访问了。
 
 ## 网站修改
 
