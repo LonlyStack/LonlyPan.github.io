@@ -5,19 +5,22 @@ date:   2019-12-01  10:7
 categories: 办公
 ---
 
+介绍本地搭建 **Jekyll** 博客的详细过程，实现博客文档修改和本地实时预览；并进一步介绍如何将本地博客部署到 Github 仓库中，实现线上访问。所有内容都是基于2019年11月最新版 Jekyll 讲解。
+
+<!--more-->
+
 ## 安装Jekyll
 
 ### 1、安装Ruby
 
-1、从[RubyInstaller](https://rubyinstaller.org/downloads/)下载，下载并安装**Ruby + Devkit**版本，选择第一个最新版本就行。
+1、从[RubyInstaller](https://rubyinstaller.org/downloads/)下载，下载并安装 **Ruby + Devkit** 版本，选择第一个最新版本就行。  
 使用默认选项进行安装，**不要更改安装路径**（我这里改了，尝试过一次，会在后面无法安装Jekyll），注意下图两个选项一定要勾选（默认已勾选）
 
-<!--more-->
 ![install_ruby](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-12-01-Jekyll博客搭建-Github/install_ruby.png)
 
-安装完成后，会提示安装 MSYS2，它是用来编译 Ruby 本地包的，我们需要同时键入 "1,2,3"，一次完成所有的安装（建议一个个依次安装）。这里因为众所周知的网络原因速度奇慢无比，如果网络状况良好，能够一次装成功或者以失败告终。 失败了就重新尝试（或翻墙），这一步是没法跳过的。
+安装完成后，会提示安装 MSYS2，它是用来编译 Ruby 本地包的，我们需要同时键入 `1,2,3`，一次完成所有的安装（建议一个个依次安装）。这里因为众所周知的网络原因，速度奇慢无比，如果网络状况良好，能够一次装成功或者以失败告终。 失败了就重新尝试（或翻墙），这一步是没法跳过的。
 
-这里如果没有弹出命令行安装界面或者把它关掉了，那么可以重新打开**cmd命令行**，输入 `ridk install` 来再次进入MSYS2安装界面。 
+这里如果没有弹出命令行 MSYS2 安装界面或者把它关掉了，那么可以重新打开**cmd命令行**，输入 `ridk install` 来再次进入MSYS2安装界面。 
 
 所有的安装完成后，建议再次重新来一遍，直到没有明显的安装过程，只提示`已经未最新`等则表示安装完成。
 
@@ -30,13 +33,16 @@ categories: 办公
 
 ![enter description here](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-12-01-Jekyll博客搭建-Github/1575169649155.png)
 
-安装完成后，关闭上面的cmd命令行再重新打开或在`...press ENTER []`后敲回车，分别输入 `ruby -v`和 `gem -v`查看版本，确认安装完成
+安装完成后，关闭上面的cmd命令行再重新打开或在`...press ENTER []`后敲回车，分别输入 `ruby -v`和 `gem -v` 查看版本，确认安装完成
 
 ![check_ruby](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-12-01-Jekyll博客搭建-Github/check_ruby.png)
 
-接下来就是正式安装Jekyll了，在cmd中输入 `gem install jekyll bundler`,这里实际还安装了一个 **bundler**，[官方建议](https://www.jekyll.com.cn/docs/ruby-101/#bundler)安装，咱就安装吧。如果失败你可能需要输入`sudo gem install jekyll bundler`重新安装。安装完成输入`jekyll -v`检查版本，确认安装完成。
 
-> 前面如果在安装 Ruby 时更改了安装路径，这里的Jekyll 很可能会安装失败，具体解决办法也没找到，最后还是保持了默认安装路径才解决，卸载Ruby时一定要删除赶紧，不然再安装会自动安装到上一次安装时的目录，可以使用 **everything** 软件 搜索 ruby 删除相关文件。
+### 2、安装Jekyll
+
+接下来就是正式安装Jekyll了，在cmd中输入 `gem install jekyll bundler`,这里实际还安装了一个 **bundler**，[官方建议](https://www.jekyll.com.cn/docs/ruby-101/#bundler)安装，咱就安装吧。如果失败你可能需要输入 `sudo gem install jekyll bundler` 重新安装。安装完成输入`jekyll -v` 检查版本，确认安装完成。
+
+> 前面如果在安装 Ruby 时更改了安装路径，这里的Jekyll 很可能会安装失败，具体解决办法也没找到，最后还是保持了默认安装路径才解决，卸载Ruby时一定要删除干净，不然再安装会自动安装到上一次安装时的目录，可以使用 **everything** 软件，搜索 "ruby" 彻底删除相关文件。
 
 **参考链接：**
 以下为解决`gem install jekyll bundler`安装错误的参考信息，都没啥帮助，还是自己重新安装ruby解决，留作记录。
@@ -49,7 +55,9 @@ categories: 办公
 - [Error installing jekyll: ERROR: Failed to build gem native extension](https://stackoverflow.com/questions/51699761/error-installing-jekyll-error-failed-to-build-gem-native-extension)
 - [windows系统下安装jekyll报错：Error installing jekyll](https://segmentfault.com/q/1010000013418668)
 
-接着使用`jekyll new myblog`命令在 ./myblog 目录下创建一个全新的 Jekyll 网站，这里文件位置可以自己指定，我是安装在D盘。等待几分钟安装完成。
+### 3、新建博客
+
+接着使用 `jekyll new myblog` 命令在 ./myblog 目录下创建一个全新的 Jekyll 网站，这里文件位置可以自己指定，我是安装在D盘。等待几分钟安装完成。
 
 ![add_myblog](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-12-01-Jekyll博客搭建-Github/add_myblog.png)
 
@@ -61,16 +69,26 @@ categories: 办公
 
 这里为止，我们已经成功在本地搭建了 Jekyll 博客系统，后面我们将会将其部署到GitHub上，使得可以通过互联网访问。这样才算完整搭建博客。
 
-## 部署
+## Github部署
 
 现在我们将 **博客** 网站（myblog下所有文件）部署到GitHub上，使得我们的博客可以线上访问。
+
+### 1、注册 Github
 
 首先你需要注册 **Github** 账号，并新建一个仓库（请自行百度），仓库里面不需要任何东西。仓库名要和你的用户名一致。如：    
 **我的用户名为：wifimake，则仓库名为：wifimake.github.io**
 
-### 安装 Github Desktop
+### 2、安装 Github Desktop
 
-我们需要 Github Desktop 软件帮助我们将文件推送到自己的GitHub账户仓库中完成部署。
+我们需要 [Github Desktop](https://desktop.github.com/) 软件帮助我们将文件推送到自己的GitHub账户仓库中完成部署。
+
+安装和使用方法见：[GitHub Desktop使用指南](https://lonlypan.com/archivers/GitHub-Desktop使用指南)
+
+### 3、部署
+
+找到我们克隆仓库的本地文件夹，将博客文件（myblog）
+
+
 ## 参考链接
 
 - [Jekyll中文官网](https://www.jekyll.com.cn/)
