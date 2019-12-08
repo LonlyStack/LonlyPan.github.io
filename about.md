@@ -12,7 +12,7 @@ Hi！你好鸭( ´･･)ﾉ(.\_.\`)
 
 **联系方式**
 
-邮件：lonlypan@gmail.com
+[邮件：](mailto:lonlypan@gmail.com)  
 
 ----------
 
