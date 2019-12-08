@@ -18,11 +18,6 @@ profile_links:
   996.ICU: "https://996.icu"
   # You can add more profile links above, or edit _includes/sidebar.html 
 
-# Comment Service (Disqus or 多说)
-#  choose one and un-comment the line to active it
-#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
-#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
-
 # Google Analytics
 google_analytics: UA-154158357-1
 baidu_analytics: f56279d43c733d547ea06f75f8e05d89
