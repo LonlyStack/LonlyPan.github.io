@@ -41,6 +41,7 @@ plugins:
  - jekyll-paginate
  - jekyll-gist
  - jemoji
+ - jekyll-last-modified-at  # 文章更改日期
 
 # Build settings
 paginate: 5
