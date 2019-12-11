@@ -1,45 +1,26 @@
 ---
-layout: default
+layout: default_book
 ---
 
+
 <div class="home">
-  <a class="rss-link" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS Feed</a>
-  <h1 class="page-heading">Articles</h1>
-
-  <ul class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
         
-        <div class="post-meta">{{ post.date | date: "%m / %d / %Y" }}</div>
+    <ul class="post-list">
+<!-- 已读000开始 -->
+{% for book in site.posts %}
+{% if book.isbook %}
+<div class="hexo-douban-item">
+  <div class="hexo-douban-picture"><img src="{{ book.bookimg }}" data-src="{{ book.bookimg }}" referrerpolicy="no-referrer"></div>
+  <div class="hexo-douban-info">
+      <div class="hexo-douban-title"><a target="_blank" href="{{ book.doubanurl }}"> {{ book.name }}</a></div>
+      <div class="hexo-douban-meta">{{ book.booktag }} | {{ book.stars }} {{ book.rate }}</div>
+      <div class="hexo-douban-comments">我的书评：{{ book.review }}</div>
 
-        <div class="post-excerpt">
-          {%   if post.content contains site.excerpt_separator or post.content != post.excerpt %}{{ post.excerpt }}
-          {%   else %}{{ post.content | lstrip | split: "
-" | first }}{% endif %}
-          <p>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More &raquo;</a>
-          </p>
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
-  
-  <!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">PREV</a>
-  {% else %}
-    <span class="previous">PREV</span>
-  {% endif %}
-  <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">NEXT</a>
-  {% else %}
-    <span class="next ">NEXT</span>
-  {% endif %}
+      <a class="post-link" href="{{ book.url}}">读书笔记 &raquo;</a>
+  </div>
 </div>
-
+{% endif %}
+{% endfor %}
+<!-- 已读000结束 -->
+    </ul>
 </div>
