@@ -2,9 +2,8 @@
 layout: default_book
 ---
 
-
 <div class="home">
-    <ul class="post-list">
+    <ul class="book-post-list">
         <!-- 已读000开始 -->
         {% for book in site.posts %}
         {% if book.isbook %}
@@ -13,7 +12,10 @@ layout: default_book
         <div class="hexo-douban-picture"><img src="{{ book.bookimg }}" data-src="{{ book.bookimg }}" referrerpolicy="no-referrer"></div>
         <div class="hexo-douban-info">
             <div class="hexo-douban-title"><a target="_blank" href="{{ book.doubanurl }}"> {{ book.title }}</a></div>
-            <div class="hexo-douban-meta">{{ book.booktag }} | {{ book.stars }} {{ book.rate }}</div>
+            <div class="hexo-douban-meta">
+                {{ book.author }} | {{ book.translator }}译 | {{ book.press }} | {{ book.publishdate }}
+            </div>
+            <div class="hexo-douban-meta">读于 {{ book.readdate }}| {{ book.booktag }} | {{ book.stars }}</div>
             <div class="hexo-douban-comments">我的书评：{{ book.review }}</div>
 
             <a class="post-link" href="{{ book.url}}">读书笔记 &raquo;</a>
