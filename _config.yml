@@ -10,8 +10,6 @@ email: lonlypan@gmail.com
 author: LonlyPan
 avatar: "/avator.ico"
 profile: 啥事都做，一事无成
-#twitter_username: twitter_username
-#github_username:  github_username
 profile_links:
   Project: "https://wifimake.com/lonlypan"
   GitHub: "https://github.com/lonlypan"
@@ -19,7 +17,6 @@ profile_links:
   # You can add more profile links above, or edit _includes/sidebar.html 
 
 # Google Analytics
-google_analytics: UA-154158357-1
 baidu_analytics: f56279d43c733d547ea06f75f8e05d89
 
 excerpt_separator: <!--more-->
@@ -39,7 +36,7 @@ plugins:
  - jemoji
 
 # Build settings
-paginate: 8
+paginate: 12
 paginate_path: "page:num"
 
 highlighter: rouge
