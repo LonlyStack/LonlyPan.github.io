@@ -2,7 +2,7 @@
 layout: post
 title:    "Hexo博客搭建-Github"
 date:   2019-11-30  10:27 
-categories: HTML&CSS
+categories: web
 ---
 
 ## 安装Hexo
