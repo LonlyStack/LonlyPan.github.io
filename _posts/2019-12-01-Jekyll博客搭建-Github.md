@@ -2,7 +2,7 @@
 layout: post
 title:    "Jekyll博客搭建-Github"
 date:   2019-12-01  10:7 
-categories: 办公
+categories: web
 ---
 
 介绍本地搭建 **Jekyll** 博客的详细过程，实现博客文档修改和本地实时预览；并进一步介绍如何将本地博客部署到 Github 仓库中，实现线上访问。所有内容都是基于2019年11月最新版 Jekyll 讲解。
