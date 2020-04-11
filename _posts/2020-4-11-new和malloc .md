@@ -7,20 +7,18 @@ categories:  c&c++
 
 # malloc
 
-## 描述
+`void * malloc（size_t大小）;`
 
-void * malloc（size_t大小）;
-
-**简介：**
+**简介：**  
 分配一个内存大小为 size 字节的块，并返回一个指向该块开头的指针。
 新分配的内存块的内容未初始化，剩余的值不确定。
 如果size为零，则返回值取决于特定的库实现（它可以是null指针，也可以不是null指针），但不应取消对返回的指针的引用。
 
-**参数：**
+**参数：**  
 size -- 内存块的大小，以字节为单位。
 size_t 是无符号整数类型。
 
-**返回值：**
+**返回值：**  
 成功时，指向函数分配的内存块的指针。
 该指针的类型始终为void*，可以将其强制转换为所需的数据指针类型，以便将其取消引用。
 如果函数未能分配所请求的内存块，则返回空指针。
@@ -60,14 +58,14 @@ String = runoob,  Address = 57917504
 String = runoob.com,  Address = 57917504
 ```
 
-**注意：**
+**注意：**  
 ` str = (char *) malloc(15);`
  这里的15 必须必须要大于要存储的字符宽度，包含结束符。  
  如果小于所要存储的字符大小(比如将上文中 15 改为 1)，实际上运行结果还是一样的，但问题在于多出的字符空间是会随时被其它变量覆盖，不安全。malloc 的作用就是开辟一个专用空间，不会被其它程序和变量占用。
  
-**参考链接：**
-[1. malloc](http://www.cplusplus.com/reference/cstdlib/malloc/)
-[2. C 库函数 - malloc()](https://www.runoob.com/cprogramming/c-function-malloc.html)
+**参考链接：**  
+[1. malloc](http://www.cplusplus.com/reference/cstdlib/malloc/)  
+[2. C 库函数 - malloc()](https://www.runoob.com/cprogramming/c-function-malloc.html)  
 
 # new
 
@@ -109,7 +107,7 @@ Value of pvalue : 29495
 
 ``` cpp
 // 动态分配,数组长度为 m
-int *array=new int [m]；
+int *array=new int [m];
  
 //释放内存
 delete [] array;
@@ -132,10 +130,6 @@ for( int i=0; i<m; i++ )
 }
 delete [] array;
 ```
-
- 
-//释放内存
-delete [] array;
 
 ## 类对象实例内存分配
 
@@ -169,7 +163,7 @@ int main( )
 
 当上面的代码被编译和执行时，它会产生下列结果：
 
-```cpp
+```
 调用构造函数！
 调用构造函数！
 调用构造函数！
