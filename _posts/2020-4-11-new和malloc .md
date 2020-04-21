@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "new和malloc "
-data: 2020-4-11 15:8
+data: 2020-04-11 15:8
 categories:  c&c++
 ---
 
