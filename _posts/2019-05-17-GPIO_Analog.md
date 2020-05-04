@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "GPIO_Analog 引脚模式-STM32CubeMX"
+show_title:  "GPIO_Analog 引脚模式-STM32CubeMX"
+title:  "2019-05-17-GPIO_Analog 引脚模式-STM32CubeMX"
 date:   2019-05-17 21:12
 categories: stm
 ---
