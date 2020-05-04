@@ -1,6 +1,7 @@
 ---
 layout: post
-title:    "Jekyll博客搭建-Github"
+show_title:    "Jekyll博客搭建-Github"
+title:    "2019-12-01-Jekyll博客搭建-Github"
 date:   2019-12-01  10:7 
 categories: web
 ---
