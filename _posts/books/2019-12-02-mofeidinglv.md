@@ -1,6 +1,7 @@
 ---
 layout: post_book
-title:    "墨菲定律"
+show_title:    "墨菲定律"
+title:    "2019-12-12-墨菲定律"
 date:   2019-12-12  21:28 
 last_modified_at:  2019-12-12 
 isbook: true
