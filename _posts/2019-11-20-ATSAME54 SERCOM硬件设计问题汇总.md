@@ -1,7 +1,7 @@
 ---
 layout: post
 show_title: "ATSAME54 SERCOM硬件设计问题"
-show_title: "2019-11-20-ATSAME54 SERCOM硬件设计问题"
+title: "2019-11-20-ATSAME54 SERCOM硬件设计问题"
 data: 2019-11-20 16:2
 categories:  atmel
 ---
