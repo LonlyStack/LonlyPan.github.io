@@ -1,5 +1,6 @@
 ---
 layout: post
+show_title: "2020-04-28-Visual Studio 2019 & Github"
 title: "2020-04-28-Visual Studio 2019 & Github"
 date: 2020-04-28
 last_modified_at: 2020-04-28
