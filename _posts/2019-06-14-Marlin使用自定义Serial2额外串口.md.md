@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Marlin 使用自定义Serial1/2/3额外串口"
+show_title: "Marlin 使用自定义Serial1/2/3额外串口"
+title: "2019-6-14-Marlin 使用自定义Serial1/2/3额外串口"
 data: 2019-6-14 9:23
 categories:  arduino
 ---
