@@ -8,7 +8,7 @@ layout: default
 
   <ul class="post-list">
     {% for post in paginator.posts %}
-    {% if !book.isbook %}
+    {% if book.isbook != true %}
       <li>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.show_title }}</a>
