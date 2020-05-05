@@ -8,6 +8,7 @@ layout: default
 
   <ul class="post-list">
     {% for post in paginator.posts %}
+    {% if !book.isbook %}
       <li>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.show_title }}</a>
@@ -24,7 +25,9 @@ layout: default
           </p>
         </div>
       </li>
-    {% endfor %}
+    {% endif %}
+
+{% endfor %}
   </ul>
   
   <!-- Pagination links -->
