@@ -3,7 +3,7 @@ layout: post
 show_title:  "Welcome to Jekyll and EasyBook"
 title:  "2014-12-30-Welcome to Jekyll and EasyBook"
 date:   2014-12-30 09:00:13
-categories: jekyll
+categories: web
 permalink: /archivers/hello
 ---
 
