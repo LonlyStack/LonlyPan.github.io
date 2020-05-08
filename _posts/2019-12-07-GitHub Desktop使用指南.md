@@ -3,7 +3,7 @@ layout: post
 show_title:    "GitHub Desktop使用指南"
 title:    "2019-12-07-GitHub Desktop使用指南"
 date:   2019-12-07  9:33 
-categories: 办公
+categories: software
 ---
 
 简单介绍如何安装和使用 **GitHub Desktop** 软件，完成线上仓库的克隆，并将本地更改内容同步更新到线上仓库。主要配合 **Jekyll** 更新博客文档使用。
