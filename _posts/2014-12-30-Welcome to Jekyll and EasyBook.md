@@ -7,8 +7,6 @@ categories: web
 permalink: /archivers/hello
 ---
 
-new test 123567
-
 ### 图床绑定测试
 
 修订版链接：使用博客绝对链接。国内可访问
