@@ -27,11 +27,11 @@ review: "如果你对管理学相关理论已经十分熟悉，这本书大可�
 [优源-书单](https://duter2016.github.io/books/)   
 
 **目前问题：**
-- 主页会显示书单文章
+- ~~主页会显示书单文章~~ -（2020-05-10 修复）
 - 书单主界面在缩小显示是右上菜单栏无法点击
 - 书单主界面改版 [参考网站](https://github.com/Liberxue/liberxue.github.io/blob/master/book/index.html)
 - 书单详情页css格式改版（显示风格改版，无侧边栏，考虑是否加目录）
-- book和post分开文件夹存储（测试过不行，估计和Jekyll有关）
+- ~~book和post分开文件夹存储（测试过不行，估计和Jekyll有关）~~ -改为在_posts下建议 books文件夹
 
 
 ## 书单测试页
