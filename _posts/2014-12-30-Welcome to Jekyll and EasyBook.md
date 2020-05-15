@@ -10,12 +10,14 @@ permalink: /archivers/hello
 ### 图床绑定测试
 
 修订版链接：使用博客绝对链接。国内可访问
-`https://githubpages地址/图片文件夹/xxx.png`
+`https://githubpages地址/图片文件夹/xxx.png`  
+
 ![enter description here](https://LonlyPan.github.io/images/Posts/2014-12-30-Welcome_to_Jekyll_and_EasyBook/main_menu_off.jpg)
 
 默认链接：使用项目绝对链接。国内不可访问。
-`https://raw.githubusercontent.com/用户名/项目名称/master/图片文件夹/xxx.png`
-![enter description here](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2014-12-30-Welcome_to_Jekyll_and_EasyBook/main_menu_on.jpg)
+`https://raw.githubusercontent.com/用户名/项目名称/master/图片文件夹/xxx.png`  
+
+![看到这句话，说明在国内访问，图片会无法加载](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2014-12-30-Welcome_to_Jekyll_and_EasyBook/main_menu_on.jpg)
 
 ### 语法测试
 
