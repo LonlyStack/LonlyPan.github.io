@@ -12,7 +12,7 @@ categories: st
 
 <!--more-->
 
-![enter description here](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-05-17-GPIO_Analog_引脚模式-STM32CubeMX/引脚选择.png)
+![enter description here](https://LonlyPan.github.io/images/Posts/2019-05-17-GPIO_Analog_引脚模式-STM32CubeMX/引脚选择.png)
 
 上网搜了一通，找到ST官方社区的两个问答，才解决了疑惑。
 
@@ -28,8 +28,8 @@ categories: st
 
 实际STM32中文参考手册的**GPIO功能描述**也有介绍，不过这是个坑。我们看一下对比。
 
-![参考手册对比](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-05-17-GPIO_Analog_引脚模式-STM32CubeMX/20190517参考手册对比.png)
+![参考手册对比](https://LonlyPan.github.io/images/Posts/2019-05-17-GPIO_Analog_引脚模式-STM32CubeMX/20190517参考手册对比.png)
 
 官方的描述是**Analog**，翻译过来就是**模拟输入**了。当阅读的时候直接照字面理解成立类似ADC的模拟输入引脚了，但实际不是这个意思。当然中文版是**V10**，我的这篇英文是**V20**版，存在改版可能性。好了，看一下手册上对**Analog**模式的解释吧。
 
-![参考手册英](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2019-05-17-GPIO_Analog_引脚模式-STM32CubeMX/20190517参考手册英.png)
+![参考手册英](https://LonlyPan.github.io/images/Posts/2019-05-17-GPIO_Analog_引脚模式-STM32CubeMX/20190517参考手册英.png)
