@@ -9,9 +9,15 @@ permalink: /archivers/hello
 
 new test 123567
 
-test
+### 图床绑定测试
 
+修订版链接：使用博客绝对链接。国内可访问
+`https://githubpages地址/图片文件夹/xxx.png`
 ![enter description here](https://LonlyPan.github.io/images/Posts/2014-12-30-Welcome_to_Jekyll_and_EasyBook/main_menu_off.jpg)
+
+默认链接：使用项目绝对链接。国内不可访问。
+`https://raw.githubusercontent.com/用户名/项目名称/master/图片文件夹/xxx.png`
+![enter description here](https://raw.githubusercontent.com/LonlyPan/LonlyPan.github.io/master/images/Posts/2014-12-30-Welcome_to_Jekyll_and_EasyBook/main_menu_on.jpg)
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
